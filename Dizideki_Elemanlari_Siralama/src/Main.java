@@ -14,7 +14,7 @@ public class Main {
             System.out.print((i + 1) + ".Eleman :");
             list1[i] = input.nextInt();
         }
-        System.out.print("Girilen Dizi :");
+        
         System.out.println("Girilen Dizi :" + Arrays.toString(list1));
         Arrays.sort(list1);
         System.out.println("Sıralanan Dizi   :");
